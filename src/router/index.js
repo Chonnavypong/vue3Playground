@@ -17,7 +17,7 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/About.vue")
   }
 ];
-
+console.log("Process env"), process.env;
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
